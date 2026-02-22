@@ -1090,11 +1090,12 @@ header {
 
 /* Safety Disclaimer Footer */
 .safety-disclaimer {
-    max-width: 600px;
+    max-width: 400px;
+    width: 90%;
     margin: 40px auto 20px auto;
     background: #2a2a2a;
     border-radius: 12px;
-    padding: 24px;
+    padding: 20px;
     font-family: 'Inter', sans-serif;
     color: #e0e0e0;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
