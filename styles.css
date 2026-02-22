@@ -1087,3 +1087,138 @@ header {
 .pgc-btn:hover {
     transform: scale(1.02);
 }
+
+/* Safety Disclaimer Footer */
+.safety-disclaimer {
+    max-width: 600px;
+    margin: 40px auto 20px auto;
+    background: #2a2a2a;
+    border-radius: 12px;
+    padding: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #e0e0e0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid #3a3a3a;
+}
+
+.safety-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.safety-header span {
+    color: #FFD54F;
+    font-size: 1.4rem;
+}
+
+.safety-header h3 {
+    color: #FFD54F;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.safety-sub {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin: 5px 0 15px 0;
+    text-transform: uppercase;
+}
+
+.safety-sub span {
+    color: #FFD54F;
+}
+
+.safety-rules {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.safety-rules li {
+    position: relative;
+    padding-left: 15px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.safety-rules li::before {
+    content: "•";
+    color: #FFD54F;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+}
+
+.safety-body-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #d0d0d0;
+    margin-bottom: 20px;
+}
+
+.safety-body-text strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.safety-divider {
+    height: 1px;
+    background: #444;
+    margin: 20px 0;
+    border: none;
+}
+
+.safety-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.safety-footer-left {
+    font-size: 0.9rem;
+    color: #ccc;
+    max-width: 60%;
+}
+
+.safety-footer-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.safety-footer-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.safety-footer-links a:hover {
+    text-decoration: underline;
+}
+
+.safety-rta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.safety-rta-box {
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #ccc;
+    border-radius: 3px;
+}
+
+.safety-rta-text {
+    font-size: 0.8rem;
+    line-height: 1.1;
+    color: #ccc;
+}
