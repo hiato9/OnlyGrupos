@@ -120,35 +120,25 @@ header {
     color: #FFD700;
 }
 
-/* Premium Sponsored Button (Now Blue/Purple) */
+/* Sleek VIP Sponsored Button */
 .btn-patrocinados-premium {
-    background: linear-gradient(270deg, #180924, #4a148c, #180924);
-    background-size: 600% 600%;
-    color: #e0f7fa !important;
-    font-weight: 800;
-    border: 1px solid #7c4dff !important;
+    background: #151515;
+    color: #e0e0e0 !important;
+    font-weight: 700;
+    border: 1px solid #313131 !important;
     border-radius: 10px;
     letter-spacing: 1px;
     position: relative;
     overflow: hidden;
-    animation: flowGradient 5s ease infinite, purplePulse 3s infinite alternate;
-}
-
-.btn-patrocinados-premium::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
-    transform: rotate(30deg);
-    animation: goldShine 3s infinite linear;
+    transition: all 0.3s ease;
 }
 
 .btn-patrocinados-premium:hover {
-    box-shadow: 0 0 30px rgba(124, 77, 255, 0.7);
+    background: #1f1f1f;
+    border-color: #555 !important;
+    color: #fff !important;
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
 @keyframes goldPulse {
