@@ -130,7 +130,7 @@ groups.forEach(group => {
             <div class="modal-header-row">
                 <div class="modal-title-block">
                     <h2 id="modalTitle">${group.name}</h2>
-                    <div id="modalAccesses" class="modal-accesses">🔥 ${group.views} Acessos</div>
+                    <div id="modalAccesses" class="modal-accesses" style="color: #00E676; margin-top: 5px; font-weight: 600; font-size: 0.9rem;">⚡ ${Math.floor(Math.random() * 700) + 300} Novos Acessos Hoje!</div>
                 </div>
                 <a href="index.html" class="close-modal" style="text-decoration: none; position: absolute; top: -5px; right: 0;" aria-label="Voltar para a página inicial">×</a>
             </div>
