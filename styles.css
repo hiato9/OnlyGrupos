@@ -120,18 +120,18 @@ header {
     color: #FFD700;
 }
 
-/* Premium Sponsored Button (Gold Focus) */
+/* Premium Sponsored Button (Now Blue/Purple) */
 .btn-patrocinados-premium {
-    background: linear-gradient(45deg, #FFD700, #F57F17);
-    color: #111;
-    /* Dark text for contrast on gold */
-    font-weight: 900;
-    border: 2px solid #FFD700;
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+    background: linear-gradient(270deg, #180924, #4a148c, #180924);
+    background-size: 600% 600%;
+    color: #e0f7fa !important;
+    font-weight: 800;
+    border: 1px solid #7c4dff !important;
+    border-radius: 10px;
     letter-spacing: 1px;
     position: relative;
     overflow: hidden;
-    animation: goldPulse 2s infinite alternate;
+    animation: flowGradient 5s ease infinite, purplePulse 3s infinite alternate;
 }
 
 .btn-patrocinados-premium::after {
@@ -141,14 +141,14 @@ header {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
     transform: rotate(30deg);
     animation: goldShine 3s infinite linear;
 }
 
 .btn-patrocinados-premium:hover {
-    box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
-    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(124, 77, 255, 0.7);
+    transform: translateY(-2px);
 }
 
 @keyframes goldPulse {
@@ -178,29 +178,25 @@ header {
 /* Premium OnlyModels Button */
 .btn-onlymodels-premium {
     width: 85% !important;
-    /* Decreased width slightly */
     max-width: 340px !important;
     margin: 5px auto 0 auto;
-    /* Centered */
     padding: 18px 20px !important;
-    /* Increased height */
 
-    background: linear-gradient(270deg, #180924, #4a148c, #180924);
-    background-size: 600% 600%;
-    color: #e0f7fa !important;
-    font-weight: 800;
-    border: 1px solid #7c4dff !important;
+    background: linear-gradient(45deg, #FFD700, #F57F17);
+    color: #111 !important;
+    font-weight: 900;
+    border: 2px solid #FFD700 !important;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
     border-radius: 10px !important;
     letter-spacing: 1px;
     position: relative;
     overflow: hidden;
-    /* Continuous background gradient shift and subtle glow */
-    animation: flowGradient 5s ease infinite, purplePulse 3s infinite alternate;
+    animation: goldPulse 2s infinite alternate;
 }
 
 .btn-onlymodels-premium:hover {
-    box-shadow: 0 0 30px rgba(124, 77, 255, 0.7);
-    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+    transform: scale(1.02);
 }
 
 @keyframes flowGradient {
