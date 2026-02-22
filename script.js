@@ -460,38 +460,22 @@ const itemsPerPage = 12;
 let currentFilter = 'em-alta';
 
 document.addEventListener('DOMContentLoaded', () => {
-    const filterBtn = document.getElementById('filterBtn');
-    const filterDropdown = document.getElementById('filterDropdown');
-    const filterOptions = filterDropdown.querySelectorAll('a');
+    const filterBtns = document.querySelectorAll('.filter-btn');
 
-    filterBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        filterDropdown.classList.toggle('show');
-    });
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            // Remove active class from all buttons
+            filterBtns.forEach(b => b.classList.remove('active'));
 
-    // Close dropdown when clicking outside
-    window.addEventListener('click', (e) => {
-        if (!e.target.matches('.filter-btn')) {
-            if (filterDropdown.classList.contains('show')) {
-                filterDropdown.classList.remove('show');
-            }
-        }
-    });
+            // Add active class to clicked button
+            e.currentTarget.classList.add('active');
 
-    filterOptions.forEach(option => {
-        option.addEventListener('click', (e) => {
-            e.preventDefault();
-            const sortType = e.target.getAttribute('data-sort');
-            currentFilter = sortType;
+            // Update filter state
+            currentFilter = e.currentTarget.getAttribute('data-filter');
 
-            // Update button text
-            filterBtn.textContent = e.target.textContent + ' ▼';
-
-            filterDropdown.classList.remove('show');
-
-            // Render with new filter
-            currentPage = 1; // Reset to page 1
-            renderGroups(groupsData);
+            // Reset to page 1 and re-render
+            currentPage = 1;
+            renderGroups(groups);
         });
     });
 });
@@ -519,11 +503,19 @@ function renderGroups(data) {
 
     // Sorting Logic
     if (currentFilter === 'data') {
-        // Sort by date added (assuming date property exists or reverse index)
-        filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
+        // Sort by date added (dd/mm/yyyy)
+        filtered.sort((a, b) => {
+            const dateA = a.date ? a.date.split('/').reverse().join('') : '0';
+            const dateB = b.date ? b.date.split('/').reverse().join('') : '0';
+            return dateB.localeCompare(dateA);
+        });
     } else if (currentFilter === 'em-alta') {
         // Sort by views
-        filtered.sort((a, b) => b.views - a.views);
+        filtered.sort((a, b) => {
+            const viewsA = parseInt(a.views.replace(/\D/g, '')) || 0;
+            const viewsB = parseInt(b.views.replace(/\D/g, '')) || 0;
+            return viewsB - viewsA;
+        });
     }
 
     // Shuffle if "Todos" and no search to make it "subtle" (mixed)

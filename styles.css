@@ -275,11 +275,20 @@ header {
     color: #666;
 }
 
-/* Filter Dropdown (Em Alta) */
 .filter-container {
     padding: 10px 20px 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.filter-container::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
 }
 
 .filter-btn {
@@ -293,8 +302,16 @@ header {
     align-items: center;
     gap: 8px;
     cursor: pointer;
-    min-width: 200px;
+    min-width: max-content;
+    flex-shrink: 0;
     justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+    background: #00E676;
+    color: #000;
+    border-color: #00E676;
 }
 
 .dropdown-container {
