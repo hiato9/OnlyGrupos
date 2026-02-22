@@ -8,7 +8,8 @@ const groups = [
         views: "552",
         type: "whatsapp",
         desc: "O acervo mais completo de CDs do Brasil. Conteúdos exclusivos que você não encontra em lugar nenhum. Entre e confira agora!",
-        link: "grupo-whatsapp-cdzinhas-brasil.html"
+        link: "grupo-whatsapp-cdzinhas-brasil.html",
+        date: "18/02/2026"
     },
     {
         id: 2,
@@ -18,7 +19,8 @@ const groups = [
         views: "482",
         type: "telegram",
         desc: "Aqui as góticas mais safadas e taradas de sexo.",
-        link: "grupo-telegram-bordel-das-goticas.html"
+        link: "grupo-telegram-bordel-das-goticas.html",
+        date: "19/02/2026"
     },
     {
         id: 3,
@@ -28,7 +30,8 @@ const groups = [
         views: "597",
         type: "whatsapp",
         desc: "Uma seleção de rabas góticas gigantes que vão fazer você perder o juízo. Preparado pra essa tentação?",
-        link: "grupo-whatsapp-goticas-rabudas.html"
+        link: "grupo-whatsapp-goticas-rabudas.html",
+        date: "22/02/2026"
     },
     {
         id: 4,
@@ -38,7 +41,8 @@ const groups = [
         views: "343",
         type: "whatsapp",
         desc: "Os femboys mais delicados e provocantes do Brasil estão aqui. Beleza andrógina e muita safadeza te esperando.",
-        link: "grupo-whatsapp-femboys-br.html"
+        link: "grupo-whatsapp-femboys-br.html",
+        date: "22/02/2026"
     },
 
     // --- Gays (5) ---
@@ -50,7 +54,8 @@ const groups = [
         views: "922",
         type: "telegram",
         desc: "Sem frescura e direto ao ponto. Brotheragem de verdade, na sigilo e com muito prazer envolvido.",
-        link: "grupo-telegram-brotheragem-2026.html"
+        link: "grupo-telegram-brotheragem-2026.html",
+        date: "18/02/2026"
     },
     {
         id: 6,
@@ -60,7 +65,8 @@ const groups = [
         views: "933",
         type: "telegram",
         desc: "Onde machos alphas relaxam. Brincadeiras pesadas, testosterona lá em cima e zero tabu.",
-        link: "grupo-telegram-brincadeira-de-macho.html"
+        link: "grupo-telegram-brincadeira-de-macho.html",
+        date: "22/02/2026"
     },
     {
         id: 7,
@@ -70,7 +76,8 @@ const groups = [
         views: "326",
         type: "telegram",
         desc: "O pós-jogo que você sempre sonhou. A resenha começa no campo e termina no vestiário, bem quente.",
-        link: "grupo-telegram-fut-dos-rapazes.html"
+        link: "grupo-telegram-fut-dos-rapazes.html",
+        date: "20/02/2026"
     },
     {
         id: 8,
@@ -80,7 +87,8 @@ const groups = [
         views: "558",
         type: "whatsapp",
         desc: "Descubra novas sensações e experiências intensas. Un mundo de prazer gay sem limites pra você explorar.",
-        link: "grupo-whatsapp-sensacao-gay.html"
+        link: "grupo-whatsapp-sensacao-gay.html",
+        date: "20/02/2026"
     },
     {
         id: 9,
@@ -90,7 +98,8 @@ const groups = [
         views: "359",
         type: "whatsapp",
         desc: "Eles adoram se mostrar e você vai adorar ver. Exibicionismo amador real, cru e delicioso.",
-        link: "grupo-whatsapp-gays-exibidos.html"
+        link: "grupo-whatsapp-gays-exibidos.html",
+        date: "20/02/2026"
     },
 
     // --- Cornos (5) ---
@@ -102,7 +111,8 @@ const groups = [
         views: "777",
         type: "whatsapp",
         desc: "O santuário para quem ama ver sua mulher nos braços de outro. Aqui seu fetiche é nossa prioridade.",
-        link: "grupo-whatsapp-covil-dos-cornos.html"
+        link: "grupo-whatsapp-covil-dos-cornos.html",
+        date: "22/02/2026"
     },
     {
         id: 11,
@@ -112,7 +122,8 @@ const groups = [
         views: "662",
         type: "telegram",
         desc: "Esposas gostosas que adoram provocar e humilhar seus maridos. Venha assistir de camarote.",
-        link: "grupo-telegram-exibicao-cuckold-2-0.html"
+        link: "grupo-telegram-exibicao-cuckold-2-0.html",
+        date: "19/02/2026"
     },
     {
         id: 12,
@@ -122,7 +133,8 @@ const groups = [
         views: "582",
         type: "whatsapp",
         desc: "Elas mandam, e você obedece. Mulheres dominadoras procurando cornos submissos pra servir agora.",
-        link: "grupo-whatsapp-putas-de-corno.html"
+        link: "grupo-whatsapp-putas-de-corno.html",
+        date: "17/02/2026"
     },
     {
         id: 13,
@@ -132,7 +144,8 @@ const groups = [
         views: "449",
         type: "whatsapp",
         desc: "Casais reais caindo na putaria. Veja esposas brasileiras traindo e se exibindo sem pudor.",
-        link: "grupo-whatsapp-exibicao-brasil.html"
+        link: "grupo-whatsapp-exibicao-brasil.html",
+        date: "21/02/2026"
     },
     {
         id: 14,
@@ -142,7 +155,8 @@ const groups = [
         views: "736",
         type: "telegram",
         desc: "Vídeos amadores vazados de esposas infiéis. O proibido nunca foi tão excitante.",
-        link: "grupo-telegram-flagras-de-esposas.html"
+        link: "grupo-telegram-flagras-de-esposas.html",
+        date: "15/02/2026"
     },
 
     // --- Putaria 24h (5) (Moved up as per user list) ---
@@ -154,7 +168,8 @@ const groups = [
         views: "903",
         type: "whatsapp",
         desc: "Sem regras, sem limites, só putaria pesada. O grupo que nunca dorme e onde tudo é permitido.",
-        link: "grupo-whatsapp-putaria-sem-fim.html"
+        link: "grupo-whatsapp-putaria-sem-fim.html",
+        date: "22/02/2026"
     },
     {
         id: 30,
@@ -164,7 +179,8 @@ const groups = [
         views: "991",
         type: "telegram",
         desc: "Bem-vindo ao puteiro virtual. As melhores profissionais e amadoras servindo conteúdo de primeira.",
-        link: "grupo-telegram-bordel-do-pimpolho.html"
+        link: "grupo-telegram-bordel-do-pimpolho.html",
+        date: "22/02/2026"
     },
     {
         id: 31,
@@ -174,7 +190,8 @@ const groups = [
         views: "714",
         type: "whatsapp",
         desc: "Clique e goze. Conteúdo frenético 24h por dia pra saciar sua vontade a qualquer momento.",
-        link: "grupo-whatsapp-putaria-24h.html"
+        link: "grupo-whatsapp-putaria-24h.html",
+        date: "22/02/2026"
     },
     {
         id: 33, // Was Proibidão 24h
@@ -184,7 +201,8 @@ const groups = [
         views: "486",
         type: "whatsapp",
         desc: "O submundo do prazer. Fetiches estranhos, bizarros e tudo o que é proibido na superfície.",
-        link: "grupo-whatsapp-pode-tudo-24h.html"
+        link: "grupo-whatsapp-pode-tudo-24h.html",
+        date: "22/02/2026"
     },
     {
         id: 32,
@@ -194,7 +212,8 @@ const groups = [
         views: "472",
         type: "telegram",
         desc: "Rápido, direto e eficiente. Entre, bata uma e relaxe. O melhor anti-stress que existe.",
-        link: "grupo-telegram-entrou-gozou.html"
+        link: "grupo-telegram-entrou-gozou.html",
+        date: "22/02/2026"
     },
 
     // --- Modelos (4) ---
@@ -206,7 +225,8 @@ const groups = [
         views: "663",
         type: "telegram",
         desc: "Tudo o que a Gabi não posta no Instagram está aqui. Conteúdo explícito, íntimo e sem censura.",
-        link: "grupo-telegram-gabi-sanchez-vip.html"
+        link: "grupo-telegram-gabi-sanchez-vip.html",
+        date: "21/02/2026"
     },
     {
         id: 16,
@@ -216,7 +236,8 @@ const groups = [
         views: "991",
         type: "telegram",
         desc: "A musa que conquistou o Brasil agora 100% nua pra você. Vídeos caseiros e ensaios picantes.",
-        link: "grupo-telegram-luiza-mel.html"
+        link: "grupo-telegram-luiza-mel.html",
+        date: "21/02/2026"
     },
     {
         id: 17,
@@ -226,7 +247,8 @@ const groups = [
         views: "424",
         type: "telegram",
         desc: "A novinha de 19 anos mais promissora do momento. Venha ver o que ela esconde por baixo da roupa.",
-        link: "grupo-telegram-paloma-silva.html"
+        link: "grupo-telegram-paloma-silva.html",
+        date: "22/02/2026"
     },
     {
         id: 18,
@@ -236,7 +258,8 @@ const groups = [
         views: "582",
         type: "whatsapp",
         desc: "Entre no grupo VIP da Amanda Fox e receba nudes diários direto no seu WhatsApp.",
-        link: "grupo-whatsapp-amanda-fox.html"
+        link: "grupo-whatsapp-amanda-fox.html",
+        date: "22/02/2026"
     },
 
     // --- Trans (4) ---
@@ -248,7 +271,8 @@ const groups = [
         views: "684",
         type: "whatsapp",
         desc: "A elite das trans brasileiras reunida. Corpos esculturais e surpresas deliciosas te aguardam.",
-        link: "grupo-whatsapp-trans-brasil.html"
+        link: "grupo-whatsapp-trans-brasil.html",
+        date: "19/02/2026"
     },
     {
         id: 20,
@@ -258,7 +282,8 @@ const groups = [
         views: "658",
         type: "telegram",
         desc: "Pra quem tem bom gosto e sabe o que é bom. Dotadas, femininas e prontas pra realizar fantasias.",
-        link: "grupo-telegram-tesao-de-trans.html"
+        link: "grupo-telegram-tesao-de-trans.html",
+        date: "21/02/2026"
     },
     {
         id: 21,
@@ -268,7 +293,8 @@ const groups = [
         views: "958",
         type: "whatsapp",
         desc: "Mergulhe nesse mundo de prazer. O melhor acervo de conteúdo trans da internet, atualizado toda hora.",
-        link: "grupo-whatsapp-mundo-trans.html"
+        link: "grupo-whatsapp-mundo-trans.html",
+        date: "21/02/2026"
     },
     {
         id: 22,
@@ -278,7 +304,8 @@ const groups = [
         views: "992",
         type: "telegram",
         desc: "Elas são lindas e têm um segredinho que você vai adorar. Venha conferir o melhor dos dois mundos.",
-        link: "grupo-telegram-mulheres-de-pau.html"
+        link: "grupo-telegram-mulheres-de-pau.html",
+        date: "21/02/2026"
     },
 
     // --- Vazadas (6) ---
@@ -290,7 +317,8 @@ const groups = [
         views: "604",
         type: "whatsapp",
         desc: "O que é pago lá fora, aqui é de graça. 0800 do conteúdo mais exclusivo da internet. Não perca!",
-        link: "grupo-whatsapp-onlymodels-2026.html"
+        link: "grupo-whatsapp-onlymodels-2026.html",
+        date: "21/02/2026"
     },
     {
         id: 24,
@@ -300,7 +328,8 @@ const groups = [
         views: "719",
         type: "whatsapp",
         desc: "Caiu na net, tá aqui! O maior banco de dados de vídeos e fotos vazadas de amadoras e famosas.",
-        link: "grupo-whatsapp-vazadas-brasil.html"
+        link: "grupo-whatsapp-vazadas-brasil.html",
+        date: "20/02/2026"
     },
     {
         id: 25,
@@ -310,7 +339,8 @@ const groups = [
         views: "657",
         type: "whatsapp",
         desc: "Privacy desbloqueado! Acesse packs completos sem pagar nada. A casa caiu pra elas.",
-        link: "grupo-whatsapp-vazadas-do-privacy.html"
+        link: "grupo-whatsapp-vazadas-do-privacy.html",
+        date: "22/02/2026"
     },
     {
         id: 26,
@@ -320,7 +350,8 @@ const groups = [
         views: "516",
         type: "telegram",
         desc: "As brasileirinhas do OnlyFans vazadas na íntegra. Todo dia novidade fresquinha pra você.",
-        link: "grupo-telegram-only-brasil.html"
+        link: "grupo-telegram-only-brasil.html",
+        date: "21/02/2026"
     },
     {
         id: 27,
@@ -330,7 +361,8 @@ const groups = [
         views: "365",
         type: "whatsapp",
         desc: "Flagras, nudes e sex tapes que não deveriam estar online, mas nós temos. Venha ver antes que apaguem!",
-        link: "grupo-whatsapp-vazou-brasil.html"
+        link: "grupo-whatsapp-vazou-brasil.html",
+        date: "19/02/2026"
     },
     {
         id: 28, // Was Vazou Tudo 2026
@@ -340,7 +372,8 @@ const groups = [
         views: "355",
         type: "telegram",
         desc: "O canal que as famosas temem. Vazamentos exclusivos e bombas diárias. O ano começou quente!",
-        link: "grupo-telegram-top-models-2-0.html"
+        link: "grupo-telegram-top-models-2-0.html",
+        date: "22/02/2026"
     },
 
     // --- Amizade (3) ---
@@ -352,7 +385,8 @@ const groups = [
         views: "926",
         type: "whatsapp",
         desc: "Cansado de fake? Aqui a gente troca ideia de verdade, conhece gente nova e quem sabe rola algo mais.",
-        link: "grupo-whatsapp-amizades-reais.html"
+        link: "grupo-whatsapp-amizades-reais.html",
+        date: "22/02/2026"
     },
     {
         id: 35,
@@ -362,7 +396,8 @@ const groups = [
         views: "401",
         type: "telegram",
         desc: "Procurando sua alma gêmea ou só um contatinho? O amor (e o prazer) pode estar a um clique.",
-        link: "grupo-telegram-amizade-e-romance.html"
+        link: "grupo-telegram-amizade-e-romance.html",
+        date: "22/02/2026"
     },
     {
         id: 36,
@@ -372,7 +407,8 @@ const groups = [
         views: "843",
         type: "whatsapp",
         desc: "Puxa uma cadeira e vem resenhar. Zoeira, memes e conversa fiada num ambiente descontraído.",
-        link: "grupo-whatsapp-boteco-dos-amigos.html"
+        link: "grupo-whatsapp-boteco-dos-amigos.html",
+        date: "22/02/2026"
     }
 ];
 
@@ -388,10 +424,7 @@ const categories = [
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Inject Random Dates
-    groups.forEach(group => {
-        group.date = getRandomDate();
-    });
+    
 
     // Shuffle groups to remove category order (User Request)
     groups.sort(() => Math.random() - 0.5);
@@ -446,12 +479,7 @@ window.onclick = function (event) {
     }
 }
 
-function getRandomDate() {
-    const day = Math.floor(Math.random() * 28) + 1;
-    const month = Math.floor(Math.random() * 2) + 1; // Jan or Feb
-    const year = 2026;
-    return `${day.toString().padStart(2, '0')}/${month.toString().padStart(2, '0')}/${year}`;
-}
+
 
 let currentPage = 1;
 const itemsPerPage = 12;
