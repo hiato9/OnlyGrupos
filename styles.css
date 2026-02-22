@@ -120,12 +120,12 @@ header {
     color: #FFD700;
 }
 
-/* Sleek VIP Sponsored Button */
+/* Sleek VIP Sponsored Button (Gold Outline) */
 .btn-patrocinados-premium {
-    background: #151515;
-    color: #e0e0e0 !important;
+    background: rgba(255, 215, 0, 0.05);
+    color: #FFCF00 !important;
     font-weight: 700;
-    border: 1px solid #313131 !important;
+    border: 1px solid #FFCF00 !important;
     border-radius: 10px;
     letter-spacing: 1px;
     position: relative;
@@ -134,11 +134,10 @@ header {
 }
 
 .btn-patrocinados-premium:hover {
-    background: #1f1f1f;
-    border-color: #555 !important;
-    color: #fff !important;
+    background: rgba(255, 215, 0, 0.15);
+    color: #FFF !important;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
 @keyframes goldPulse {
