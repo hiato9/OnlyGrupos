@@ -5,7 +5,7 @@ const groups = [
         name: "CDzinhas Brasil",
         category: "Cdzinhas",
         image: "assets/default_cover.png",
-        views: "12K",
+        views: "552",
         type: "whatsapp",
         desc: "O acervo mais completo de CDs do Brasil. Conteúdos exclusivos que você não encontra em lugar nenhum. Entre e confira agora!",
         link: "grupo-whatsapp-cdzinhas-brasil.html"
@@ -15,7 +15,7 @@ const groups = [
         name: "Bordel das Góticas",
         category: "Cdzinhas",
         image: "assets/default_cover.png",
-        views: "8.5K",
+        views: "482",
         type: "telegram",
         desc: "Aqui as góticas mais safadas e taradas de sexo.",
         link: "grupo-telegram-bordel-das-goticas.html"
@@ -25,7 +25,7 @@ const groups = [
         name: "Góticas Rabudas",
         category: "Cdzinhas",
         image: "assets/default_cover.png",
-        views: "15K",
+        views: "597",
         type: "whatsapp",
         desc: "Uma seleção de rabas góticas gigantes que vão fazer você perder o juízo. Preparado pra essa tentação?",
         link: "grupo-whatsapp-goticas-rabudas.html"
@@ -35,7 +35,7 @@ const groups = [
         name: "Femboys BR",
         category: "Cdzinhas",
         image: "assets/default_cover.png",
-        views: "9K",
+        views: "343",
         type: "whatsapp",
         desc: "Os femboys mais delicados e provocantes do Brasil estão aqui. Beleza andrógina e muita safadeza te esperando.",
         link: "grupo-whatsapp-femboys-br.html"
@@ -47,7 +47,7 @@ const groups = [
         name: "Brotheragem 2026",
         category: "Gays",
         image: "assets/default_cover.png",
-        views: "22K",
+        views: "922",
         type: "telegram",
         desc: "Sem frescura e direto ao ponto. Brotheragem de verdade, na sigilo e com muito prazer envolvido.",
         link: "grupo-telegram-brotheragem-2026.html"
@@ -57,7 +57,7 @@ const groups = [
         name: "Brincadeira de Macho",
         category: "Gays",
         image: "assets/default_cover.png",
-        views: "18K",
+        views: "933",
         type: "telegram",
         desc: "Onde machos alphas relaxam. Brincadeiras pesadas, testosterona lá em cima e zero tabu.",
         link: "grupo-telegram-brincadeira-de-macho.html"
@@ -67,7 +67,7 @@ const groups = [
         name: "Fut dos Rapazes",
         category: "Gays",
         image: "assets/default_cover.png",
-        views: "11K",
+        views: "326",
         type: "telegram",
         desc: "O pós-jogo que você sempre sonhou. A resenha começa no campo e termina no vestiário, bem quente.",
         link: "grupo-telegram-fut-dos-rapazes.html"
@@ -77,7 +77,7 @@ const groups = [
         name: "Sensação Gay",
         category: "Gays",
         image: "assets/default_cover.png",
-        views: "14K",
+        views: "558",
         type: "whatsapp",
         desc: "Descubra novas sensações e experiências intensas. Un mundo de prazer gay sem limites pra você explorar.",
         link: "grupo-whatsapp-sensacao-gay.html"
@@ -87,7 +87,7 @@ const groups = [
         name: "Gays Exibidos",
         category: "Gays",
         image: "assets/default_cover.png",
-        views: "16K",
+        views: "359",
         type: "whatsapp",
         desc: "Eles adoram se mostrar e você vai adorar ver. Exibicionismo amador real, cru e delicioso.",
         link: "grupo-whatsapp-gays-exibidos.html"
@@ -99,7 +99,7 @@ const groups = [
         name: "Covil dos Cornos",
         category: "Cornos",
         image: "assets/default_cover.png",
-        views: "30K",
+        views: "777",
         type: "whatsapp",
         desc: "O santuário para quem ama ver sua mulher nos braços de outro. Aqui seu fetiche é nossa prioridade.",
         link: "grupo-whatsapp-covil-dos-cornos.html"
@@ -109,7 +109,7 @@ const groups = [
         name: "Exibição Cuckold 2.0",
         category: "Cornos",
         image: "assets/default_cover.png",
-        views: "25K",
+        views: "662",
         type: "telegram",
         desc: "Esposas gostosas que adoram provocar e humilhar seus maridos. Venha assistir de camarote.",
         link: "grupo-telegram-exibicao-cuckold-2-0.html"
@@ -119,7 +119,7 @@ const groups = [
         name: "Putas de Corno",
         category: "Cornos",
         image: "assets/default_cover.png",
-        views: "28K",
+        views: "582",
         type: "whatsapp",
         desc: "Elas mandam, e você obedece. Mulheres dominadoras procurando cornos submissos pra servir agora.",
         link: "grupo-whatsapp-putas-de-corno.html"
@@ -129,7 +129,7 @@ const groups = [
         name: "Exibição Brasil",
         category: "Cornos",
         image: "assets/default_cover.png",
-        views: "20K",
+        views: "449",
         type: "whatsapp",
         desc: "Casais reais caindo na putaria. Veja esposas brasileiras traindo e se exibindo sem pudor.",
         link: "grupo-whatsapp-exibicao-brasil.html"
@@ -139,7 +139,7 @@ const groups = [
         name: "Flagras de Esposas",
         category: "Cornos",
         image: "assets/default_cover.png",
-        views: "35K",
+        views: "736",
         type: "telegram",
         desc: "Vídeos amadores vazados de esposas infiéis. O proibido nunca foi tão excitante.",
         link: "grupo-telegram-flagras-de-esposas.html"
@@ -151,7 +151,7 @@ const groups = [
         name: "Putaria sem Fim",
         category: "Putaria 24h",
         image: "assets/default_cover.png",
-        views: "50K",
+        views: "903",
         type: "whatsapp",
         desc: "Sem regras, sem limites, só putaria pesada. O grupo que nunca dorme e onde tudo é permitido.",
         link: "grupo-whatsapp-putaria-sem-fim.html"
@@ -161,7 +161,7 @@ const groups = [
         name: "Bordel do Pimpolho",
         category: "Putaria 24h",
         image: "assets/default_cover.png",
-        views: "45K",
+        views: "991",
         type: "telegram",
         desc: "Bem-vindo ao puteiro virtual. As melhores profissionais e amadoras servindo conteúdo de primeira.",
         link: "grupo-telegram-bordel-do-pimpolho.html"
@@ -171,7 +171,7 @@ const groups = [
         name: "Putaria 24h",
         category: "Putaria 24h",
         image: "assets/default_cover.png",
-        views: "60K",
+        views: "714",
         type: "whatsapp",
         desc: "Clique e goze. Conteúdo frenético 24h por dia pra saciar sua vontade a qualquer momento.",
         link: "grupo-whatsapp-putaria-24h.html"
@@ -181,7 +181,7 @@ const groups = [
         name: "Pode Tudo 24h",
         category: "Putaria 24h",
         image: "assets/default_cover.png",
-        views: "42K",
+        views: "486",
         type: "whatsapp",
         desc: "O submundo do prazer. Fetiches estranhos, bizarros e tudo o que é proibido na superfície.",
         link: "grupo-whatsapp-pode-tudo-24h.html"
@@ -191,7 +191,7 @@ const groups = [
         name: "Entrou Gozou",
         category: "Putaria 24h",
         image: "assets/default_cover.png",
-        views: "48K",
+        views: "472",
         type: "telegram",
         desc: "Rápido, direto e eficiente. Entre, bata uma e relaxe. O melhor anti-stress que existe.",
         link: "grupo-telegram-entrou-gozou.html"
@@ -203,7 +203,7 @@ const groups = [
         name: "Gabi Sanchez VIP",
         category: "Modelos",
         image: "assets/default_cover.png",
-        views: "80K",
+        views: "663",
         type: "telegram",
         desc: "Tudo o que a Gabi não posta no Instagram está aqui. Conteúdo explícito, íntimo e sem censura.",
         link: "grupo-telegram-gabi-sanchez-vip.html"
@@ -213,7 +213,7 @@ const groups = [
         name: "Luiza Mel",
         category: "Modelos",
         image: "assets/default_cover.png",
-        views: "70K",
+        views: "991",
         type: "telegram",
         desc: "A musa que conquistou o Brasil agora 100% nua pra você. Vídeos caseiros e ensaios picantes.",
         link: "grupo-telegram-luiza-mel.html"
@@ -223,7 +223,7 @@ const groups = [
         name: "Paloma Silva",
         category: "Modelos",
         image: "assets/default_cover.png",
-        views: "65K",
+        views: "424",
         type: "telegram",
         desc: "A novinha de 19 anos mais promissora do momento. Venha ver o que ela esconde por baixo da roupa.",
         link: "grupo-telegram-paloma-silva.html"
@@ -233,7 +233,7 @@ const groups = [
         name: "Amanda Fox",
         category: "Modelos",
         image: "assets/default_cover.png",
-        views: "66K",
+        views: "582",
         type: "whatsapp",
         desc: "Entre no grupo VIP da Amanda Fox e receba nudes diários direto no seu WhatsApp.",
         link: "grupo-whatsapp-amanda-fox.html"
@@ -245,7 +245,7 @@ const groups = [
         name: "Trans Brasil",
         category: "Trans",
         image: "assets/default_cover.png",
-        views: "15K",
+        views: "684",
         type: "whatsapp",
         desc: "A elite das trans brasileiras reunida. Corpos esculturais e surpresas deliciosas te aguardam.",
         link: "grupo-whatsapp-trans-brasil.html"
@@ -255,7 +255,7 @@ const groups = [
         name: "Tesão de Trans",
         category: "Trans",
         image: "assets/default_cover.png",
-        views: "18K",
+        views: "658",
         type: "telegram",
         desc: "Pra quem tem bom gosto e sabe o que é bom. Dotadas, femininas e prontas pra realizar fantasias.",
         link: "grupo-telegram-tesao-de-trans.html"
@@ -265,7 +265,7 @@ const groups = [
         name: "Mundo Trans",
         category: "Trans",
         image: "assets/default_cover.png",
-        views: "14K",
+        views: "958",
         type: "whatsapp",
         desc: "Mergulhe nesse mundo de prazer. O melhor acervo de conteúdo trans da internet, atualizado toda hora.",
         link: "grupo-whatsapp-mundo-trans.html"
@@ -275,7 +275,7 @@ const groups = [
         name: "Mulheres de Pau",
         category: "Trans",
         image: "assets/default_cover.png",
-        views: "20K",
+        views: "992",
         type: "telegram",
         desc: "Elas são lindas e têm um segredinho que você vai adorar. Venha conferir o melhor dos dois mundos.",
         link: "grupo-telegram-mulheres-de-pau.html"
@@ -287,7 +287,7 @@ const groups = [
         name: "OnlyModels 2026",
         category: "Vazadas",
         image: "assets/default_cover.png",
-        views: "90K",
+        views: "604",
         type: "whatsapp",
         desc: "O que é pago lá fora, aqui é de graça. 0800 do conteúdo mais exclusivo da internet. Não perca!",
         link: "grupo-whatsapp-onlymodels-2026.html"
@@ -297,7 +297,7 @@ const groups = [
         name: "Vazadas Brasil",
         category: "Vazadas",
         image: "assets/default_cover.png",
-        views: "85K",
+        views: "719",
         type: "whatsapp",
         desc: "Caiu na net, tá aqui! O maior banco de dados de vídeos e fotos vazadas de amadoras e famosas.",
         link: "grupo-whatsapp-vazadas-brasil.html"
@@ -307,7 +307,7 @@ const groups = [
         name: "Vazadas do Privacy",
         category: "Vazadas",
         image: "assets/default_cover.png",
-        views: "88K",
+        views: "657",
         type: "whatsapp",
         desc: "Privacy desbloqueado! Acesse packs completos sem pagar nada. A casa caiu pra elas.",
         link: "grupo-whatsapp-vazadas-do-privacy.html"
@@ -317,7 +317,7 @@ const groups = [
         name: "Only Brasil",
         category: "Vazadas",
         image: "assets/default_cover.png",
-        views: "82K",
+        views: "516",
         type: "telegram",
         desc: "As brasileirinhas do OnlyFans vazadas na íntegra. Todo dia novidade fresquinha pra você.",
         link: "grupo-telegram-only-brasil.html"
@@ -327,7 +327,7 @@ const groups = [
         name: "Vazou Brasil",
         category: "Vazadas",
         image: "assets/default_cover.png",
-        views: "75K",
+        views: "365",
         type: "whatsapp",
         desc: "Flagras, nudes e sex tapes que não deveriam estar online, mas nós temos. Venha ver antes que apaguem!",
         link: "grupo-whatsapp-vazou-brasil.html"
@@ -337,7 +337,7 @@ const groups = [
         name: "Top Models 2.0",
         category: "Vazadas",
         image: "assets/default_cover.png",
-        views: "95K",
+        views: "355",
         type: "telegram",
         desc: "O canal que as famosas temem. Vazamentos exclusivos e bombas diárias. O ano começou quente!",
         link: "grupo-telegram-top-models-2-0.html"
@@ -349,7 +349,7 @@ const groups = [
         name: "Amizades Reais",
         category: "Amizade",
         image: "assets/default_cover.png",
-        views: "5K",
+        views: "926",
         type: "whatsapp",
         desc: "Cansado de fake? Aqui a gente troca ideia de verdade, conhece gente nova e quem sabe rola algo mais.",
         link: "grupo-whatsapp-amizades-reais.html"
@@ -359,7 +359,7 @@ const groups = [
         name: "Amizade e Romance",
         category: "Amizade",
         image: "assets/default_cover.png",
-        views: "4K",
+        views: "401",
         type: "telegram",
         desc: "Procurando sua alma gêmea ou só um contatinho? O amor (e o prazer) pode estar a um clique.",
         link: "grupo-telegram-amizade-e-romance.html"
@@ -369,7 +369,7 @@ const groups = [
         name: "Boteco dos Amigos",
         category: "Amizade",
         image: "assets/default_cover.png",
-        views: "3K",
+        views: "843",
         type: "whatsapp",
         desc: "Puxa uma cadeira e vem resenhar. Zoeira, memes e conversa fiada num ambiente descontraído.",
         link: "grupo-whatsapp-boteco-dos-amigos.html"
