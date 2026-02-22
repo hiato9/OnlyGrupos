@@ -505,7 +505,7 @@ function renderGroups(data) {
 
     let filtered = data.filter(group => {
         const matchesCategory = currentCategory === 'Todos' || group.category === currentCategory;
-        const matchesSearch = group.name.toLowerCase().includes(textFilter) || group.category.toLowerCase().includes(textFilter);
+        const matchesSearch = group.name.toLowerCase().includes(textFilter) || group.desc.toLowerCase().includes(textFilter);
 
         let matchesType = true;
         if (currentFilter === 'telegram') {
