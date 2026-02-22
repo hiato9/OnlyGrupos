@@ -267,7 +267,8 @@ header {
     color: #bbb;
     width: 100%;
     outline: none;
-    font-size: 0.95rem;
+    font-size: 16px;
+    /* 16px prevents iOS Safari from automatically zooming in */
 }
 
 #searchInput::placeholder {
