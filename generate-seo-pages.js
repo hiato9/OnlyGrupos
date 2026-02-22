@@ -125,8 +125,8 @@ groups.forEach(group => {
         <p>Basta clicar em "Entrar no Grupo" abaixo. Nossos links são verificados diariamente em 2026 para garantir que não estejam revogados.</p>
     </article>
 
-    <div class="modal modal-seo-override">
-        <div class="modal-content">
+    <div class="modal modal-seo-override" onclick="if(document.referrer) history.back(); else window.location.href='index.html';">
+        <div class="modal-content" onclick="event.stopPropagation()">
             <div class="modal-header-row">
                 <div class="modal-title-block">
                     <h2 id="modalTitle">${group.name}</h2>

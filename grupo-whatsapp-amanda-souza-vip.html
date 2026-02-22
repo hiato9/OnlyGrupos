@@ -88,8 +88,8 @@
     </article>
 
     <!-- Visual Falso Modal (Identical to original) -->
-    <div class="modal modal-seo-override">
-        <div class="modal-content">
+    <div class="modal modal-seo-override" onclick="if(document.referrer) history.back(); else window.location.href='index.html';">
+        <div class="modal-content" onclick="event.stopPropagation()">
             <div class="modal-header-row">
                 <div class="modal-title-block">
                     <!-- H2 instead of H1 in the modal visual to respect the hidden H1 for SEO -->
