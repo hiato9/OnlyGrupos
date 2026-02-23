@@ -647,7 +647,7 @@ function createCard(group) {
             <div class="group-title mb-1">${group.name}</div>
             <div class="text-warning mb-2" style="font-size: 0.85rem; font-weight: bold;">
                 ⭐⭐⭐⭐⭐<br>
-<span class="text-muted small d-inline-block mt-1" style="font-weight: 500;">(${(4.6 + (group.link ? group.link.length % 4 : group.name.length % 4) / 10).toFixed(1)}) ${240 + ((group.link ? group.link.length : group.name.length) * 13) % 400} avaliações</span>
+<span class="text-muted small d-block mt-2" style="font-weight: 500;">(${(4.6 + (group.link ? group.link.length % 4 : group.name.length % 4) / 10).toFixed(1)}) ${240 + ((group.link ? group.link.length : group.name.length) * 13) % 400} avaliações</span>
             </div>
             <div class="group-desc">${group.desc}</div>
             <!-- Dynamic button linking directly or using JS fallback -->
