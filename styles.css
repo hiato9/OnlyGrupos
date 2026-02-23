@@ -677,9 +677,10 @@ header {
     width: 100%;
     max-width: 350px;
     border-radius: 16px;
+    box-sizing: border-box;
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 90vh;
+    max-height: 85dvh;
     position: relative;
     border: 1px solid #00E676;
     /* Neon Green Border */
