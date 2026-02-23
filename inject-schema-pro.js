@@ -56,22 +56,10 @@ files.forEach(file => {
 
         schemas.push({
             "@context": "https://schema.org",
-            "@type": "Product", // Forces Google to see it as an offer, enabling review stars
+            "@type": "Product", // Maintains the "Product" identity for SEO indexing, but without fake reviews
             "name": title,
             "description": description,
-            "url": `https://onlygrupos.online/${file}`,
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": rating,
-                "reviewCount": reviews,
-                "bestRating": "5"
-            },
-            "offers": {
-                "@type": "Offer",
-                "price": "0.00",
-                "priceCurrency": "BRL",
-                "availability": "https://schema.org/InStock"
-            }
+            "url": `https://onlygrupos.online/${file}`
         });
     }
     else {
