@@ -32,6 +32,7 @@ function generateSitemap() {
     // Sort to process Categories first, then Groups
     const categories = htmlFiles.filter(f => f.startsWith('grupos-de-whatsapp-'));
     const groups = htmlFiles.filter(f => f.startsWith('grupo-'));
+    const niches = htmlFiles.filter(f => !f.startsWith('grupos-de-whatsapp-') && !f.startsWith('grupo-') && !EXCLUDE_FILES.includes(f) && f !== 'index.html');
 
     // 3. Add Category Pages
     categories.forEach(file => {
@@ -44,6 +45,15 @@ function generateSitemap() {
     });
 
     // 4. Add Group Pages
+    niches.forEach(file => {
+        xml += `  <url>\n`;
+        xml += `    <loc>${DOMAIN}/${file}</loc>\n`;
+        xml += `    <lastmod>${today}</lastmod>\n`;
+        xml += `    <changefreq>weekly</changefreq>\n`;
+        xml += `    <priority>0.8</priority>\n`;
+        xml += `  </url>\n`;
+    });
+
     groups.forEach(file => {
         xml += `  <url>\n`;
         xml += `    <loc>${DOMAIN}/${file}</loc>\n`;
@@ -57,7 +67,7 @@ function generateSitemap() {
 
     fs.writeFileSync(SITEMAP_FILE, xml, 'utf8');
     console.log(`✅ Sitemap gerado com sucesso em: ${SITEMAP_FILE}`);
-    console.log(`🌐 Total de links indexados: ${1 + categories.length + groups.length}`);
+    console.log(`🌐 Total de links indexados: ${1 + categories.length + groups.length + niches.length}`);
 }
 
 generateSitemap();
