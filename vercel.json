@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/onlymodels-premium.html",
+      "destination": "https://onlymodels.online/",
+      "permanent": true
+    }
+  ]
+}

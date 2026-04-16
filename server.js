@@ -1,16 +1,31 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const rateLimit = require('express-rate-limit');
 const { MercadoPagoConfig, Payment } = require('mercadopago');
 
 const app = express();
-app.use(cors());
+
+// Configurando CORS restrito
+app.use(cors({
+    origin: ['https://onlymodels.online', 'https://onlygrupos.online', 'http://localhost:5000', 'http://127.0.0.1:5000', 'http://localhost:3000'],
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type']
+}));
 app.use(express.json());
 
 // Set up Mercado Pago Client
-const client = new MercadoPagoConfig({ accessToken: 'APP_USR-5238277782838185-022119-7012073cb2ab2a45bd57ba433b024469-455113527' });
+const client = new MercadoPagoConfig({ accessToken: process.env.MERCADOPAGO_ACCESS_TOKEN || 'APP_USR-5238277782838185-022119-7012073cb2ab2a45bd57ba433b024469-455113527' });
 const payment = new Payment(client);
 
-app.post('/create-pix', async (req, res) => {
+// Limiter definition
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 10, // Limit each IP to 10 requests per `window`
+    message: { error: 'Muitas tentativas de pagamento. Tente novamente mais tarde.' }
+});
+
+app.post('/create-pix', limiter, async (req, res) => {
     try {
         const { transactionAmount, description, email, cpf, name } = req.body;
 

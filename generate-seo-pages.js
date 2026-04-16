@@ -20,10 +20,10 @@ const groups = [
     { id: 31, name: "Putaria 24h", category: "Putaria 24h", views: "60K", type: "whatsapp", desc: "Clique e goze. Conteúdo frenético 24h por dia pra saciar sua vontade a qualquer momento.", link: "https://chat.whatsapp.com/example31" },
     { id: 33, name: "Pode Tudo 24h", category: "Putaria 24h", views: "42K", type: "whatsapp", desc: "O submundo do prazer. Fetiches estranhos, bizarros e tudo o que é proibido na superfície.", link: "https://chat.whatsapp.com/K1MMeJirp3o6lNhifkAJFT?mode=gi_t" },
     { id: 32, name: "Entrou Gozou", category: "Putaria 24h", views: "48K", type: "telegram", desc: "Rápido, direto e eficiente. Entre, bata uma e relaxe. O melhor anti-stress que existe.", link: "https://chat.whatsapp.com/LJTlPJHhmvT0ivjnmGnIcK?mode=gi_t" },
-    { id: 15, name: "Gabi Sanchez VIP", category: "Modelos", views: "80K", type: "telegram", desc: "Tudo o que a Gabi não posta no Instagram está aqui. Conteúdo explícito, íntimo e sem censura.", link: "https://chat.whatsapp.com/JxFewuWyUrVAlgPmglkX6B?mode=gi_t" },
-    { id: 16, name: "Luiza Mel", category: "Modelos", views: "70K", type: "telegram", desc: "A musa que conquistou o Brasil agora 100% nua pra você. Vídeos caseiros e ensaios picantes.", link: "https://t.me/example16" },
-    { id: 17, name: "Paloma Silva", category: "Modelos", views: "65K", type: "telegram", desc: "A novinha de 19 anos mais promissora do momento. Venha ver o que ela esconde por baixo da roupa.", link: "https://chat.whatsapp.com/JxFewuWyUrVAlgPmglkX6B?mode=gi_t" },
-    { id: 18, name: "Amanda Fox", category: "Modelos", views: "66K", type: "whatsapp", desc: "Entre no grupo VIP da Amanda Fox e receba nudes diários direto no seu WhatsApp.", link: "https://chat.whatsapp.com/example18" },
+    { id: 15, name: "Gabi Sanchez", category: "Modelos", views: "80K", type: "telegram", desc: "Tudo o que a Gabi não posta no Instagram está aqui. Conteúdo explícito, íntimo e sem censura.", link: "https://chat.whatsapp.com/JxFewuWyUrVAlgPmglkX6B?mode=gi_t" },
+    { id: 16, name: "Raquel Godoi", category: "Modelos", views: "70K", type: "telegram", desc: "A musa que conquistou o Brasil agora 100% nua pra você. Vídeos caseiros e ensaios picantes.", link: "https://t.me/example16" },
+    { id: 17, name: "Fada Obscura", category: "Modelos", views: "65K", type: "telegram", desc: "A novinha de 19 anos mais promissora do momento. Venha ver o que ela esconde por baixo da roupa.", link: "https://chat.whatsapp.com/JxFewuWyUrVAlgPmglkX6B?mode=gi_t" },
+    { id: 18, name: "Mandy", category: "Modelos", views: "66K", type: "whatsapp", desc: "Entre no grupo VIP da Mandy e receba nudes diários direto no seu WhatsApp.", link: "https://chat.whatsapp.com/example18" },
     { id: 19, name: "Trans Brasil", category: "Trans", views: "15K", type: "whatsapp", desc: "A elite das trans brasileiras reunida. Corpos esculturais e surpresas deliciosas te aguardam.", link: "https://chat.whatsapp.com/BvUr8YWOUCgLnwELo6A2EV?mode=gi_t" },
     { id: 20, name: "Tesão de Trans", category: "Trans", views: "18K", type: "telegram", desc: "Pra quem tem bom gosto e sabe o que é bom. Dotadas, femininas e prontas pra realizar fantasias.", link: "https://t.me/example20" },
     { id: 21, name: "Mundo Trans", category: "Trans", views: "14K", type: "whatsapp", desc: "Mergulhe nesse mundo de prazer. O melhor acervo de conteúdo trans da internet, atualizado toda hora.", link: "https://t.me/example21" },
@@ -55,7 +55,7 @@ groups.forEach(group => {
     let fileName = `${prefix}-${slug}.html`;
 
     let originalLink = group.link;
-    if (group.id === 18 && group.name === "Amanda Fox") {
+    if (group.id === 18 && group.name === "Mandy") {
         originalLink = "https://chat.whatsapp.com/example18";
     }
 

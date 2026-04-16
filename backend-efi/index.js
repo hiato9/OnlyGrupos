@@ -2,9 +2,15 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const Gerencianet = require('gn-api-sdk-node');
+const rateLimit = require('express-rate-limit');
 
 const app = express();
-app.use(cors()); // Permite que o seu site (front-end) se comunique com este servidor
+// Configurando CORS restrito
+app.use(cors({
+    origin: ['https://onlymodels.online', 'https://onlygrupos.online', 'http://localhost:5000', 'http://127.0.0.1:5000', 'http://localhost:3000'],
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type']
+}));
 app.use(express.json());
 
 // Configuração das Credenciais da Efí Bank
@@ -23,7 +29,13 @@ app.get('/', (req, res) => {
 });
 
 // Rota 2: A Rota Mágica que o seu Front-end vai chamar para pedir a imagem do PIX
-app.post('/gerar-pix', async (req, res) => {
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutos
+    max: 10,
+    message: { sucesso: false, erro: 'Muitas tentativas de pagamento. Tente novamente mais tarde.' }
+});
+
+app.post('/gerar-pix', limiter, async (req, res) => {
     try {
         // Puxamos valores do front-end (ex: valor do pacote, nome do cliente, etc)
         // Se nao for fornecido, cobramos o padrao de 39.90

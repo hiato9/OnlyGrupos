@@ -1,4 +1,4 @@
-const groups = [
+﻿const groups = [
     // --- Cdzinhas (4) ---
     {
         id: 1,
@@ -219,46 +219,46 @@ const groups = [
     // --- Modelos (4) ---
     {
         id: 15,
-        name: "Gabi Sanchez VIP",
+        name: "Gabi Sanchez",
         category: "Modelos",
         image: "assets/default_cover.png",
         views: "576",
         type: "telegram",
         desc: "Tudo o que a Gabi não posta no Instagram está aqui. Conteúdo explícito, íntimo e sem censura.",
-        link: "grupo-telegram-gabi-sanchez-vip.html",
+        link: "grupo-telegram-gabi-sanchez.html",
         date: "21/02/2026"
     },
     {
         id: 16,
-        name: "Luiza Mel",
+        name: "Raquel Godoi",
         category: "Modelos",
         image: "assets/default_cover.png",
         views: "918",
         type: "telegram",
         desc: "A musa que conquistou o Brasil agora 100% nua pra você. Vídeos caseiros e ensaios picantes.",
-        link: "grupo-telegram-luiza-mel.html",
+        link: "grupo-telegram-raquel-godoi.html",
         date: "21/02/2026"
     },
     {
         id: 17,
-        name: "Paloma Silva",
+        name: "Fada Obscura",
         category: "Modelos",
         image: "assets/default_cover.png",
         views: "910",
         type: "telegram",
         desc: "A novinha de 19 anos mais promissora do momento. Venha ver o que ela esconde por baixo da roupa.",
-        link: "grupo-telegram-paloma-silva.html",
+        link: "grupo-telegram-fada-obscura.html",
         date: "22/02/2026"
     },
     {
         id: 18,
-        name: "Amanda Fox",
+        name: "Mandy",
         category: "Modelos",
         image: "assets/default_cover.png",
         views: "327",
         type: "whatsapp",
-        desc: "Entre no grupo VIP da Amanda Fox e receba nudes diários direto no seu WhatsApp.",
-        link: "grupo-whatsapp-amanda-fox.html",
+        desc: "Entre no grupo VIP da Mandy e receba nudes diários direto no seu WhatsApp.",
+        link: "grupo-whatsapp-mandy.html",
         date: "22/02/2026"
     },
 
@@ -875,3 +875,4 @@ window.addEventListener('click', (e) => {
         closeSponsoredModal();
     }
 });
+
