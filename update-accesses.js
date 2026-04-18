@@ -9,7 +9,7 @@ files.forEach(file => {
     // Replace the modal access div with the new format and color
     content = content.replace(
         /<div id="modalAccesses" class="modal-accesses">.*?<\/div>/g,
-        `<div id="modalAccesses" class="modal-accesses" style="color: #00E676; margin-top: 5px; font-weight: 600; font-size: 0.9rem;">⚡ ${randomNum} Novos Acessos Hoje!</div>`
+        `<div id="modalAccesses" class="modal-accesses" style="color: #229ED9; margin-top: 5px; font-weight: 600; font-size: 0.9rem;">⚡ ${randomNum} Novos Acessos Hoje!</div>`
     );
 
     fs.writeFileSync(file, content);

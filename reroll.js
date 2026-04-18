@@ -7,7 +7,7 @@ files.forEach(file => {
     let randomNum = Math.floor(Math.random() * 700) + 300; // Between 300 and 999
 
     // The current div looks like this:
-    // <div id="modalAccesses" class="modal-accesses" style="color: #00E676; margin-top: 5px; font-weight: 600; font-size: 0.9rem;">⚡ 512 Novos Acessos Hoje!</div>
+    // <div id="modalAccesses" class="modal-accesses" style="color: #229ED9; margin-top: 5px; font-weight: 600; font-size: 0.9rem;">⚡ 512 Novos Acessos Hoje!</div>
     content = content.replace(
         /⚡ \d+ Novos Acessos/g,
         `⚡ ${randomNum} Novos Acessos`
