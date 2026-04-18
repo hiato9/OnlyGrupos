@@ -6,7 +6,7 @@
         category: "Cdzinhas",
         image: "assets/default_cover.png",
         views: "492",
-        type: "whatsapp",
+        type: "telegram",
         desc: "O acervo mais completo de CDs do Brasil. Conteúdos exclusivos que você não encontra em lugar nenhum. Entre e confira agora!",
         link: "grupo-whatsapp-cdzinhas-brasil.html",
         date: "18/02/2026"
@@ -28,7 +28,7 @@
         category: "Cdzinhas",
         image: "assets/default_cover.png",
         views: "342",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Uma seleção de rabas góticas gigantes que vão fazer você perder o juízo. Preparado pra essa tentação?",
         link: "grupo-whatsapp-goticas-rabudas.html",
         date: "22/02/2026"
@@ -39,7 +39,7 @@
         category: "Cdzinhas",
         image: "assets/default_cover.png",
         views: "568",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Os femboys mais delicados e provocantes do Brasil estão aqui. Beleza andrógina e muita safadeza te esperando.",
         link: "grupo-whatsapp-femboys-br.html",
         date: "22/02/2026"
@@ -85,7 +85,7 @@
         category: "Gays",
         image: "assets/default_cover.png",
         views: "585",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Descubra novas sensações e experiências intensas. Un mundo de prazer gay sem limites pra você explorar.",
         link: "grupo-whatsapp-sensacao-gay.html",
         date: "20/02/2026"
@@ -96,7 +96,7 @@
         category: "Gays",
         image: "assets/default_cover.png",
         views: "568",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Eles adoram se mostrar e você vai adorar ver. Exibicionismo amador real, cru e delicioso.",
         link: "grupo-whatsapp-gays-exibidos.html",
         date: "20/02/2026"
@@ -109,7 +109,7 @@
         category: "Cornos",
         image: "assets/default_cover.png",
         views: "613",
-        type: "whatsapp",
+        type: "telegram",
         desc: "O santuário para quem ama ver sua mulher nos braços de outro. Aqui seu fetiche é nossa prioridade.",
         link: "grupo-whatsapp-covil-dos-cornos.html",
         date: "22/02/2026"
@@ -131,7 +131,7 @@
         category: "Cornos",
         image: "assets/default_cover.png",
         views: "627",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Elas mandam, e você obedece. Mulheres dominadoras procurando cornos submissos pra servir agora.",
         link: "grupo-whatsapp-putas-de-corno.html",
         date: "17/02/2026"
@@ -142,7 +142,7 @@
         category: "Cornos",
         image: "assets/default_cover.png",
         views: "490",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Casais reais caindo na putaria. Veja esposas brasileiras traindo e se exibindo sem pudor.",
         link: "grupo-whatsapp-exibicao-brasil.html",
         date: "21/02/2026"
@@ -166,7 +166,7 @@
         category: "Putaria 24h",
         image: "assets/default_cover.png",
         views: "825",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Sem regras, sem limites, só putaria pesada. O grupo que nunca dorme e onde tudo é permitido.",
         link: "grupo-whatsapp-putaria-sem-fim.html",
         date: "22/02/2026"
@@ -188,7 +188,7 @@
         category: "Putaria 24h",
         image: "assets/default_cover.png",
         views: "999",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Clique e goze. Conteúdo frenético 24h por dia pra saciar sua vontade a qualquer momento.",
         link: "grupo-whatsapp-putaria-24h.html",
         date: "22/02/2026"
@@ -199,7 +199,7 @@
         category: "Putaria 24h",
         image: "assets/default_cover.png",
         views: "765",
-        type: "whatsapp",
+        type: "telegram",
         desc: "O submundo do prazer. Fetiches estranhos, bizarros e tudo o que é proibido na superfície.",
         link: "grupo-whatsapp-pode-tudo-24h.html",
         date: "22/02/2026"
@@ -256,8 +256,8 @@
         category: "Modelos",
         image: "assets/default_cover.png",
         views: "327",
-        type: "whatsapp",
-        desc: "Entre no grupo VIP da Mandy e receba nudes diários direto no seu WhatsApp.",
+        type: "telegram",
+        desc: "Entre no grupo VIP da Mandy e receba nudes diários direto no seu Telegram.",
         link: "grupo-whatsapp-mandy.html",
         date: "22/02/2026"
     },
@@ -269,7 +269,7 @@
         category: "Trans",
         image: "assets/default_cover.png",
         views: "458",
-        type: "whatsapp",
+        type: "telegram",
         desc: "A elite das trans brasileiras reunida. Corpos esculturais e surpresas deliciosas te aguardam.",
         link: "grupo-whatsapp-trans-brasil.html",
         date: "19/02/2026"
@@ -291,7 +291,7 @@
         category: "Trans",
         image: "assets/default_cover.png",
         views: "797",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Mergulhe nesse mundo de prazer. O melhor acervo de conteúdo trans da internet, atualizado toda hora.",
         link: "grupo-whatsapp-mundo-trans.html",
         date: "21/02/2026"
@@ -315,7 +315,7 @@
         category: "Vazadas",
         image: "assets/default_cover.png",
         views: "707",
-        type: "whatsapp",
+        type: "telegram",
         desc: "O que é pago lá fora, aqui é de graça. 0800 do conteúdo mais exclusivo da internet. Não perca!",
         link: "grupo-whatsapp-onlymodels-2026.html",
         date: "21/02/2026"
@@ -326,7 +326,7 @@
         category: "Vazadas",
         image: "assets/default_cover.png",
         views: "516",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Caiu na net, tá aqui! O maior banco de dados de vídeos e fotos vazadas de amadoras e famosas.",
         link: "grupo-whatsapp-vazadas-brasil.html",
         date: "20/02/2026"
@@ -337,7 +337,7 @@
         category: "Vazadas",
         image: "assets/default_cover.png",
         views: "987",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Privacy desbloqueado! Acesse packs completos sem pagar nada. A casa caiu pra elas.",
         link: "grupo-whatsapp-vazadas-do-privacy.html",
         date: "22/02/2026"
@@ -359,7 +359,7 @@
         category: "Vazadas",
         image: "assets/default_cover.png",
         views: "762",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Flagras, nudes e sex tapes que não deveriam estar online, mas nós temos. Venha ver antes que apaguem!",
         link: "grupo-whatsapp-vazou-brasil.html",
         date: "19/02/2026"
@@ -383,7 +383,7 @@
         category: "Amizade",
         image: "assets/default_cover.png",
         views: "960",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Cansado de fake? Aqui a gente troca ideia de verdade, conhece gente nova e quem sabe rola algo mais.",
         link: "grupo-whatsapp-amizades-reais.html",
         date: "22/02/2026"
@@ -405,7 +405,7 @@
         category: "Amizade",
         image: "assets/default_cover.png",
         views: "702",
-        type: "whatsapp",
+        type: "telegram",
         desc: "Puxa uma cadeira e vem resenhar. Zoeira, memes e conversa fiada num ambiente descontraído.",
         link: "grupo-whatsapp-boteco-dos-amigos.html",
         date: "22/02/2026"
