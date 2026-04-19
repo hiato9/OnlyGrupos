@@ -65,9 +65,9 @@
             </div>
         </div>
         <div class="nav-row-2">
-            <a href="https://onlymodels.online/" class="nav-btn btn-onlymodels-premium" style="text-decoration: none;" target="_blank">
-                ONLYMODELS
-            </a>
+            <button class="nav-btn btn-adicionar-grupo" onclick="openCadastroModal()">
+                    <span class="icon">➕</span> DIVULGAR GRUPO
+                </button>
         </div>
     </div>
 
@@ -188,6 +188,52 @@
     </div>
 
     <script src="script.js?v=7"></script>
+
+    <!-- Add Group Modal -->
+    <div id="cadastroModal" class="modal" onclick="closeCadastroModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header-row">
+                <div class="modal-title-block">
+                    <h2 id="cadastroTitle" style="margin: 0; color: white;">Divulgue Seu Grupo</h2>
+                    <div style="color: #229ED9; margin-top: 5px; font-weight: 600; font-size: 0.85rem;">Preencha para análise rápida</div>
+                </div>
+                <button class="close-modal" onclick="closeCadastroModal()" style="background: transparent; border: none; color: #888; font-size: 1.5rem; cursor: pointer;">×</button>
+            </div>
+            <div class="modal-body">
+                <form id="cadastroForm" onsubmit="submitCadastro(event)">
+                    <div style="margin-bottom: 15px;">
+                        <label style="color: #aaa; font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; display: block;">Nome do Grupo</label>
+                        <input type="text" id="cadNome" required style="width: 100%; padding: 10px; background: #1A1A1A; border: 1px solid #333; color: white; border-radius: 6px; box-sizing: border-box;">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <label style="color: #aaa; font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; display: block;">Link de Convite (Telegram/WhatsApp)</label>
+                        <input type="url" id="cadLink" required placeholder="https://t.me/..." style="width: 100%; padding: 10px; background: #1A1A1A; border: 1px solid #333; color: white; border-radius: 6px; box-sizing: border-box;">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <label style="color: #aaa; font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; display: block;">Categoria</label>
+                        <select id="cadCategoria" required style="width: 100%; padding: 10px; background: #1A1A1A; border: 1px solid #333; color: white; border-radius: 6px; box-sizing: border-box;">
+                            <option value="Amizade">Amizade</option>
+                            <option value="Cdzinhas">Cdzinhas</option>
+                            <option value="Cornos">Cornos</option>
+                            <option value="Gays">Gays</option>
+                            <option value="Modelos">Modelos</option>
+                            <option value="Putaria 24h">Putaria 24h</option>
+                            <option value="Trans">Trans</option>
+                            <option value="Vazadas">Vazadas</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 25px;">
+                        <label style="color: #aaa; font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; display: block;">Seu Contato (WhatsApp/Telegram)</label>
+                        <input type="text" id="cadContato" required placeholder="@seu_usuario_telegram" style="width: 100%; padding: 10px; background: #1A1A1A; border: 1px solid #333; color: white; border-radius: 6px; box-sizing: border-box;">
+                    </div>
+                    <button type="submit" id="btnSubmitCadastro" style="width: 100%; background: #229ED9; color: #fff; font-weight: 900; border: none; padding: 14px; border-radius: 8px; cursor: pointer; text-transform: uppercase; font-family: Inter;">Enviar para Aprovação</button>
+                    <p id="cadStatusInfo" style="display: none; text-align: center; color: #229ED9; font-size: 0.85rem; margin-top: 15px; font-weight: bold;">Enviado! Analisaremos em breve.</p>
+                    <p id="cadErrorInfo" style="display: none; text-align: center; color: #ff5252; font-size: 0.85rem; margin-top: 15px; font-weight: bold;">Erro na comunicação com o servidor.</p>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 
 </html>

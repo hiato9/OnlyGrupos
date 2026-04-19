@@ -876,3 +876,59 @@ window.addEventListener('click', (e) => {
     }
 });
 
+
+// Funcoes do Modal de Cadastro
+window.openCadastroModal = function() {
+    document.getElementById('cadastroModal').classList.add('show');
+}
+window.closeCadastroModal = function() {
+    document.getElementById('cadastroModal').classList.remove('show');
+    document.getElementById('cadStatusInfo').style.display = 'none';
+    document.getElementById('cadErrorInfo').style.display = 'none';
+    document.getElementById('btnSubmitCadastro').style.display = 'block';
+    document.getElementById('btnSubmitCadastro').disabled = false;
+    document.getElementById('btnSubmitCadastro').textContent = 'Enviar para Aprovação';
+    document.getElementById('cadastroForm').reset();
+}
+
+window.submitCadastro = async function(e) {
+    e.preventDefault();
+    const btn = document.getElementById('btnSubmitCadastro');
+    const status = document.getElementById('cadStatusInfo');
+    const erro = document.getElementById('cadErrorInfo');
+    
+    btn.textContent = 'Enviando...';
+    btn.disabled = true;
+    erro.style.display = 'none';
+    status.style.display = 'none';
+
+    const data = {
+        name: document.getElementById('cadNome').value,
+        link: document.getElementById('cadLink').value,
+        category: document.getElementById('cadCategoria').value,
+        contact: document.getElementById('cadContato').value
+    };
+
+    try {
+        const url = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+            ? 'http://localhost:3001/api/cadastrar-grupo' 
+            : 'https://seuservidor.com.br/api/cadastrar-grupo'; // A ser alterado para o domínio do VPs
+            
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+            btn.style.display = 'none';
+            status.style.display = 'block';
+        } else {
+            throw new Error('Falha');
+        }
+    } catch (err) {
+        erro.style.display = 'block';
+        btn.textContent = 'Enviar para Aprovação';
+        btn.disabled = false;
+    }
+}
